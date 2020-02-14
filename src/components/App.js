@@ -46,8 +46,6 @@ class App extends Component {
         networkData.address
       );
       this.setState({ contract });
-      // const memeHash = await contract.methods.get().call();
-      // this.setState({ memeHash });
     } else {
       window.alert("Smart contract not deployed to detected network.");
     }
@@ -142,13 +140,7 @@ class App extends Component {
           <div className="row">
             <main role="main" className="container">
               <div className="content mr-auto ml-auto">
-                <a
-                  href="http://www.dappuniversity.com/bootcamp"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {/* <img src={logo} className="App-logo text-center" alt="logo" /> */}
-                </a>
+                <a href="" target="_blank" rel="noopener noreferrer"></a>
                 <p></p>
                 <h1 className="text-center">Upload File</h1>
                 <form onSubmit={this.onSubmit}>

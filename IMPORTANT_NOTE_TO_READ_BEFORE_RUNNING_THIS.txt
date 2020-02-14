@@ -1,0 +1,1 @@
+use "npm start" to run in cmd
