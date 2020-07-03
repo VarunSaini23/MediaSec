@@ -1,28 +1,36 @@
 # MEDIASEC
 
-
-**SHARE CONTENT ON BLOCKCHAIN AND GET INCENTIVIZED**
-
-
 **PROBLEM**
-Original content is mis-credited or plagiarized. Social media personalities are building their brands using other people’s work and generating income from it. No outlet for content creators to safely upload their original work to serve as the golden record.
-Increasing plagrism is a major concern online! As a all the data that has been stored online is on a single server storage, privacy of the content provider is completely dependent on the server provider as there is no transperency on how or where the content is being used until searched for. This also increases the chance of manipulated content sharing.
+There is no platform where an content creator can post his original content without being worried of plagrism or content theft issues.
+
+The increase in plagrism has become a big issue now a days. As all the social media sites store the data online on a single server, the authenicity of the content and the privacy of content creator is at high risk. There is Zero transparency as the server provider has all the powers. They can sell his content without his/her permission, manipulate the content, make that content belong to some other powerful(influential) person by removing the original content creator.
+
+Cases like these have happened before where the content creators are not credited for their own content.
+
 
 
 
 **SOLUTION**
-Incentivize content creators to share their original work by building a platform that leverages blockchain technology to create a unique transaction and golden record. This will generate profit sharing opportunities and proper crediting.
-
-**HOW IT ALL WORKS**
+Creating a platform where a content creator can upload his content without any tension and get incetivized too. This dApp provides a platform that makes use of blockchain, so that the content becomes immutable and decentralized. Modyfying any data is nearly impossible in Blockchain because the power is not in the hands of a single person. So, the content creator can also generate profits from his content.
 
 
-**IPFS** *(Inter Planetary File System)* and **Ethereum** *Blockchain*
+**COMPLETE WORKING**
+
+**Ethereum** *Blockchain* (*https://ethereum.org/en/*)
+
+- Concept of blockchain was choosen because it makes the data immutable, decentralized and it maintains a distributed ledger.
+- Ethereum Blockchain provides the concept of **SMART CONTRACTS** which is basically writing functions on blockchain to perform some tasks. Some common tasks include tipping a content creator, uplaoding a content on blockchain etc.
+- One problem was that, how to store content on blockchain because 1GB of data storage on blockchain costs around $76,000 *(according to a Yellow Paper)* , which is enormous. So to tacle this problem, IPFS is used.
+
+
+**IPFS** *(Inter Planetary File System)*  (*https://ipfs.io/*)
+
+- IPFS is a peer-to-peer hypermedia protocol designed to make the web faster, safer, and more open.
+- IPFS was utilised to store content.
+- IPFS provides a URL after storing the data. Using that URL, the content can be retrieved. It also removes duplications, and tracks version of each file.
+- So the URL recieved after storing data on IPFS was stored in the actual Ethereum blockchain. 
+- In this way, we store the URL instead of the putting the whole data on blockchain.
  
-- IPFS removes duplications across the network and tracks version history for every file keeping Storage in control.
-- Each network node stores only content it is interested in, and some indexing information that helps figure out who is storing what.
-- Every file can be found by human-readable names using a decentralized naming system called IPNS.
-
-IPFS and the Blockchain are a perfect match! You can address large amounts of data with IPFS, and place the immutable, permanent IPFS links into a blockchain transaction. This timestamps and secures your content, without having to put the data on the chain itself.
 
 # Screenshots
 
@@ -33,7 +41,7 @@ IPFS and the Blockchain are a perfect match! You can address large amounts of da
 ![3](https://user-images.githubusercontent.com/40406851/72020088-01cbc680-3291-11ea-89dc-c3b8abde7ae6.PNG)
 
 
-# Available Ethereum addr for testing
+# Available Ethereum addresses for testing
 
 
 ```
@@ -45,10 +53,3 @@ Available Test Accounts
 (3) 0x997AEa4e8c50cda0b6B36Fc310A8C5883000C3CC
 (4) 0x88080538B800Dc479509eaC6106E480A1143Cc7b
 ```
-
-# Getting Started with Ethereum and IPFS dev
-
-[IPFS](https://ipfs.io/)
-[Ethereum dev](https://www.ethereum.org/)
-[Writing Contracts](https://solidity.readthedocs.io/en/develop/)
-[Developing Apps](https://http://truffleframework.com/)
