@@ -1,7 +1,7 @@
 # MEDIASEC
 
 **PROBLEM**
-There is no platform where an content creator can post his original content without being worried of plagiarism or content theft issues.
+There is no platform where a content creator can post his original content without being worried of plagiarism or content theft issues.
 
 The increase in plagiarism has become a very big issue now a days. As all the social media sites store the data online on a single server, the authenticity of the content and the privacy of content creator is at high risk. There is Zero transparency as the server provider has all the powers. They can sell his content without his permission, manipulate the content, make that content belong to some other powerful(influential) person by removing the original content creator.
 
@@ -9,7 +9,7 @@ Cases like these have happened before where the content creators are not credite
 
 
 **SOLUTION**
-Creating a platform where a content creator can upload his content without any tension and get incetivized too. This dApp provides a platform that makes use of blockchain, so that the content becomes immutable and decentralized. Modyfying any data is nearly impossible in Blockchain because the power is not in the hands of a single person. So, the content creator can also generate profits from his content.
+Creating a platform where a content creator can upload his content without any tension and get incetivized too. This dApp provides a platform that makes use of blockchain, so that the content becomes immutable and decentralized. Modifying any data is nearly impossible in Blockchain because the power is not in the hands of a single person. So, the content creator can also generate profits from his content.
 
 
 **COMPLETE WORKING**
